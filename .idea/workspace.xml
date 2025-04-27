@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc10a16d-7cb7-4599-bca1-8de9ee8e1bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/advanced_lane_detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advanced_lane_detection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output_Video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Output_Video.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/line_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/line_fit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/line_fit_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/line_fit_video.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +233,7 @@
       <workItem from="1609595443249" duration="35000" />
       <workItem from="1610085555382" duration="102000" />
       <workItem from="1745734311066" duration="3081000" />
-      <workItem from="1745738752228" duration="1652000" />
+      <workItem from="1745738752228" duration="2534000" />
     </task>
     <servers />
   </component>

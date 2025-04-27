@@ -1,0 +1,4 @@
+matplotlib==3.10.1
+moviepy==1.0.3
+numpy==2.2.5
+opencv_python==4.11.0.86
