@@ -18,14 +18,14 @@ def line_fit(binary_warped):
     out_img = (np.dstack((binary_warped, binary_warped, binary_warped)) * 255).astype('uint8')
     # 找出直方图左右两半的峰值
     # 这些将是左车道线与右车道线线的起点
-    midpoint = np.int(histogram.shape[0] / 2)
+    midpoint = np.int64(histogram.shape[0] / 2)
     leftx_base = np.argmax(histogram[100:midpoint]) + 100
     rightx_base = np.argmax(histogram[midpoint:-100]) + midpoint
 
     # 选择滑动窗口的数量
     nwindows = 9
     # 设置滑动窗口的高度
-    window_height = np.int(binary_warped.shape[0] / nwindows)
+    window_height = np.int64(binary_warped.shape[0] / nwindows)
     # 确定图像中所有非零像素点的x和y位置
     nonzero = binary_warped.nonzero()
     nonzeroy = np.array(nonzero[0])
@@ -63,9 +63,9 @@ def line_fit(binary_warped):
         right_lane_inds.append(good_right_inds)
         # 如果大于最小像素，则将下一个滑动窗口重新居中于其平均位置
         if len(good_left_inds) > minpix:
-            leftx_current = np.int(np.mean(nonzerox[good_left_inds]))
+            leftx_current = np.int64(np.mean(nonzerox[good_left_inds]))
         if len(good_right_inds) > minpix:
-            rightx_current = np.int(np.mean(nonzerox[good_right_inds]))
+            rightx_current = np.int64(np.mean(nonzerox[good_right_inds]))
 
     # 连接索引数组
     left_lane_inds = np.concatenate(left_lane_inds)
